@@ -14,4 +14,4 @@ config KMALLOC_DEBUG
 	  with a new kmalloc debug cache. The new kmalloc cache will enable
 	  SLAB_STORE_USER.
 
-source "mm/malloc_track/Kconfig.in"
+source "vendor/oplus/kernel/oplus_performance/memleak_detect/malloc_track/Kconfig.in"
