@@ -886,7 +886,7 @@ config PHYSICAL_ANTI_FRAGMENTATION
 #endif
 
 #ifdef OPLUS_FEATURE_MEMLEAK_DETECT
-source "mm/malloc_track/Kconfig.compat"
+source "vendor/oplus/kernel/oplus_performance/memleak_detect/malloc_track/Kconfig"
 source "mm/task_mem/Kconfig"
 #endif
 
