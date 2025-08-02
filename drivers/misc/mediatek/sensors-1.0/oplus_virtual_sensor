@@ -1,1 +1,1 @@
-source "vendor/oplus/sensor/kernel/oplus_virtual_sensor/Kconfig"
+source "vendor/oplus/sensor/kernel/oplus_virtual_sensor"
