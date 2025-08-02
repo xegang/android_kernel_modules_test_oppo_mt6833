@@ -5,4 +5,4 @@ source "vendor/oplus/kernel/network/oplus_dns_hook/Kconfig"
 
 source "vendor/oplus/kernel/network/oplus_stats_calc/Kconfig"
 
-source "net/oplus_modules/oplus_qr_scan/Kconfig"
+source "vendor/oplus/kernel/network/oplus_qr_scan/Kconfig"
