@@ -1,1 +1,1 @@
-source "../../vendor/oplus/kernel/network"
+source "../../vendor/oplus/kernel/network/Kconfig"
