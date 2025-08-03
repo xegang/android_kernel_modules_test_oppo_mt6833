@@ -80,7 +80,7 @@ config TOUCHPANEL_CHIPONE
 	---help---
 	say Y to enable driver for Touchpanel using chipone IC
 
-source "drivers/input/touchscreen/oplus_touchscreen/util_interface/Kconfig"
+source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/util_interface/Kconfig"
 
 if TOUCHPANEL_SYNAPTICS
 source "drivers/input/touchscreen/oplus_touchscreen/Synaptics/Kconfig"
