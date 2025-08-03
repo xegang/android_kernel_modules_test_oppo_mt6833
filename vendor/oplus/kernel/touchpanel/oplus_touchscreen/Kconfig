@@ -83,29 +83,29 @@ config TOUCHPANEL_CHIPONE
 source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/util_interface/Kconfig"
 
 if TOUCHPANEL_SYNAPTICS
-source "drivers/input/touchscreen/oplus_touchscreen/Synaptics/Kconfig"
+source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/Synaptics/Kconfig"
 endif
 
 if TOUCHPANEL_GOODIX
-source "drivers/input/touchscreen/oplus_touchscreen/Goodix/Kconfig"
+source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/Goodix/Kconfig"
 endif
 
 if TOUCHPANEL_FOCAL
-source "drivers/input/touchscreen/oplus_touchscreen/Focal/Kconfig"
+source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/Focal/Kconfig"
 endif
 
 if TOUCHPANEL_NOVA
-source "drivers/input/touchscreen/oplus_touchscreen/Novatek/Kconfig"
+source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/Novatek/Kconfig"
 endif
 
 if TOUCHPANEL_HIMAX
-source "drivers/input/touchscreen/oplus_touchscreen/Himax/Kconfig"
+source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/Himax/Kconfig"
 endif
 
 if TOUCHPANEL_SAMSUNG
-source "drivers/input/touchscreen/oplus_touchscreen/Samsung/Kconfig"
+source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/Samsung/Kconfig"
 endif
 
 if TOUCHPANEL_ILITEK
-source "drivers/input/touchscreen/oplus_touchscreen/ilitek/Kconfig"
+source "vendor/oplus/kernel/touchpanel/oplus_touchscreen/ilitek/Kconfig"
 endif
