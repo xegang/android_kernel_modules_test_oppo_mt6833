@@ -211,7 +211,7 @@ source "drivers/input/serio/Kconfig"
 source "drivers/input/gameport/Kconfig"
 
 #ifdef OPLUS_FEATURE_SECURITY_COMMON
-source "drivers/input/oplus_secure_drivers/Kconfig"
+source "vendor/oplus/secure/common/bsp/drivers/Kconfig"
 #endif /* OPLUS_FEATURE_SECURITY_COMMON */
 
 #ifdef OPLUS_FEATURE_FINGERPRINT
