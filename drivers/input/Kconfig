@@ -1,4 +1,4 @@
-#
+ #
 # Input device configuration
 #
 
@@ -216,7 +216,7 @@ source "vendor/oplus/secure/common/bsp/drivers/Kconfig"
 
 #ifdef OPLUS_FEATURE_FINGERPRINT
 source "vendor/oplus/secure/biometrics/fingerprints/bsp/drivers/Kconfig"
-source "drivers/input/uff_fp_drivers/Kconfig"
+source "vendor/oplus/secure/biometrics/fingerprints/bsp/uff/driver/Kconfig"
 #endif /*OPLUS_FEATURE_FINGERPRINT*/
 
 endmenu
