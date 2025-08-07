@@ -215,7 +215,7 @@ source "vendor/oplus/secure/common/bsp/drivers/Kconfig"
 #endif /* OPLUS_FEATURE_SECURITY_COMMON */
 
 #ifdef OPLUS_FEATURE_FINGERPRINT
-source "drivers/input/oplus_fp_drivers/Kconfig"
+source "vendor/oplus/secure/biometrics/fingerprints/bsp/drivers/Kconfig"
 source "drivers/input/uff_fp_drivers/Kconfig"
 #endif /*OPLUS_FEATURE_FINGERPRINT*/
 
